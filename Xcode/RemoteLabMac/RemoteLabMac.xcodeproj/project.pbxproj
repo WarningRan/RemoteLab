@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E77C4BF1E617A2300F11ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77C4BE1E617A2300F11ADD /* AppDelegate.swift */; };
+		2E77C4C11E617A2300F11ADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77C4C01E617A2300F11ADD /* ViewController.swift */; };
+		2E77C4C31E617A2300F11ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E77C4C21E617A2300F11ADD /* Assets.xcassets */; };
+		2E77C4C61E617A2300F11ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E77C4C41E617A2300F11ADD /* Main.storyboard */; };
+		2E77C4D11E617A2300F11ADD /* RemoteLabMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77C4D01E617A2300F11ADD /* RemoteLabMacTests.swift */; };
+		2E77C4DC1E617A2300F11ADD /* RemoteLabMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77C4DB1E617A2300F11ADD /* RemoteLabMacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E77C4CD1E617A2300F11ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E77C4B31E617A2300F11ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E77C4BA1E617A2300F11ADD;
+			remoteInfo = RemoteLabMac;
+		};
+		2E77C4D81E617A2300F11ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E77C4B31E617A2300F11ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E77C4BA1E617A2300F11ADD;
+			remoteInfo = RemoteLabMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E77C4BB1E617A2300F11ADD /* RemoteLabMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteLabMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E77C4BE1E617A2300F11ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E77C4C01E617A2300F11ADD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E77C4C21E617A2300F11ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E77C4C51E617A2300F11ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E77C4C71E617A2300F11ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E77C4CC1E617A2300F11ADD /* RemoteLabMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteLabMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E77C4D01E617A2300F11ADD /* RemoteLabMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLabMacTests.swift; sourceTree = "<group>"; };
+		2E77C4D21E617A2300F11ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E77C4D71E617A2300F11ADD /* RemoteLabMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteLabMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E77C4DB1E617A2300F11ADD /* RemoteLabMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLabMacUITests.swift; sourceTree = "<group>"; };
+		2E77C4DD1E617A2300F11ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E77C4B81E617A2300F11ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E77C4C91E617A2300F11ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E77C4D41E617A2300F11ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E77C4B21E617A2300F11ADD = {
+			isa = PBXGroup;
+			children = (
+				2E77C4BD1E617A2300F11ADD /* RemoteLabMac */,
+				2E77C4CF1E617A2300F11ADD /* RemoteLabMacTests */,
+				2E77C4DA1E617A2300F11ADD /* RemoteLabMacUITests */,
+				2E77C4BC1E617A2300F11ADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E77C4BC1E617A2300F11ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E77C4BB1E617A2300F11ADD /* RemoteLabMac.app */,
+				2E77C4CC1E617A2300F11ADD /* RemoteLabMacTests.xctest */,
+				2E77C4D71E617A2300F11ADD /* RemoteLabMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E77C4BD1E617A2300F11ADD /* RemoteLabMac */ = {
+			isa = PBXGroup;
+			children = (
+				2E77C4BE1E617A2300F11ADD /* AppDelegate.swift */,
+				2E77C4C01E617A2300F11ADD /* ViewController.swift */,
+				2E77C4C21E617A2300F11ADD /* Assets.xcassets */,
+				2E77C4C41E617A2300F11ADD /* Main.storyboard */,
+				2E77C4C71E617A2300F11ADD /* Info.plist */,
+			);
+			path = RemoteLabMac;
+			sourceTree = "<group>";
+		};
+		2E77C4CF1E617A2300F11ADD /* RemoteLabMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E77C4D01E617A2300F11ADD /* RemoteLabMacTests.swift */,
+				2E77C4D21E617A2300F11ADD /* Info.plist */,
+			);
+			path = RemoteLabMacTests;
+			sourceTree = "<group>";
+		};
+		2E77C4DA1E617A2300F11ADD /* RemoteLabMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E77C4DB1E617A2300F11ADD /* RemoteLabMacUITests.swift */,
+				2E77C4DD1E617A2300F11ADD /* Info.plist */,
+			);
+			path = RemoteLabMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E77C4BA1E617A2300F11ADD /* RemoteLabMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E77C4E01E617A2300F11ADD /* Build configuration list for PBXNativeTarget "RemoteLabMac" */;
+			buildPhases = (
+				2E77C4B71E617A2300F11ADD /* Sources */,
+				2E77C4B81E617A2300F11ADD /* Frameworks */,
+				2E77C4B91E617A2300F11ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteLabMac;
+			productName = RemoteLabMac;
+			productReference = 2E77C4BB1E617A2300F11ADD /* RemoteLabMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E77C4CB1E617A2300F11ADD /* RemoteLabMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E77C4E31E617A2300F11ADD /* Build configuration list for PBXNativeTarget "RemoteLabMacTests" */;
+			buildPhases = (
+				2E77C4C81E617A2300F11ADD /* Sources */,
+				2E77C4C91E617A2300F11ADD /* Frameworks */,
+				2E77C4CA1E617A2300F11ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E77C4CE1E617A2300F11ADD /* PBXTargetDependency */,
+			);
+			name = RemoteLabMacTests;
+			productName = RemoteLabMacTests;
+			productReference = 2E77C4CC1E617A2300F11ADD /* RemoteLabMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E77C4D61E617A2300F11ADD /* RemoteLabMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E77C4E61E617A2300F11ADD /* Build configuration list for PBXNativeTarget "RemoteLabMacUITests" */;
+			buildPhases = (
+				2E77C4D31E617A2300F11ADD /* Sources */,
+				2E77C4D41E617A2300F11ADD /* Frameworks */,
+				2E77C4D51E617A2300F11ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E77C4D91E617A2300F11ADD /* PBXTargetDependency */,
+			);
+			name = RemoteLabMacUITests;
+			productName = RemoteLabMacUITests;
+			productReference = 2E77C4D71E617A2300F11ADD /* RemoteLabMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E77C4B31E617A2300F11ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "zhuoran liu";
+				TargetAttributes = {
+					2E77C4BA1E617A2300F11ADD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TUQDF7X5N8;
+						ProvisioningStyle = Automatic;
+					};
+					2E77C4CB1E617A2300F11ADD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TUQDF7X5N8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E77C4BA1E617A2300F11ADD;
+					};
+					2E77C4D61E617A2300F11ADD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TUQDF7X5N8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E77C4BA1E617A2300F11ADD;
+					};
+				};
+			};
+			buildConfigurationList = 2E77C4B61E617A2300F11ADD /* Build configuration list for PBXProject "RemoteLabMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E77C4B21E617A2300F11ADD;
+			productRefGroup = 2E77C4BC1E617A2300F11ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E77C4BA1E617A2300F11ADD /* RemoteLabMac */,
+				2E77C4CB1E617A2300F11ADD /* RemoteLabMacTests */,
+				2E77C4D61E617A2300F11ADD /* RemoteLabMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E77C4B91E617A2300F11ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E77C4C31E617A2300F11ADD /* Assets.xcassets in Resources */,
+				2E77C4C61E617A2300F11ADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E77C4CA1E617A2300F11ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E77C4D51E617A2300F11ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E77C4B71E617A2300F11ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E77C4C11E617A2300F11ADD /* ViewController.swift in Sources */,
+				2E77C4BF1E617A2300F11ADD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E77C4C81E617A2300F11ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E77C4D11E617A2300F11ADD /* RemoteLabMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E77C4D31E617A2300F11ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E77C4DC1E617A2300F11ADD /* RemoteLabMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E77C4CE1E617A2300F11ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E77C4BA1E617A2300F11ADD /* RemoteLabMac */;
+			targetProxy = 2E77C4CD1E617A2300F11ADD /* PBXContainerItemProxy */;
+		};
+		2E77C4D91E617A2300F11ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E77C4BA1E617A2300F11ADD /* RemoteLabMac */;
+			targetProxy = 2E77C4D81E617A2300F11ADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E77C4C41E617A2300F11ADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E77C4C51E617A2300F11ADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E77C4DE1E617A2300F11ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E77C4DF1E617A2300F11ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2E77C4E11E617A2300F11ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TUQDF7X5N8;
+				INFOPLIST_FILE = RemoteLabMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.remotelab.client.RemoteLabMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2E77C4E21E617A2300F11ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TUQDF7X5N8;
+				INFOPLIST_FILE = RemoteLabMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.remotelab.client.RemoteLabMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2E77C4E41E617A2300F11ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TUQDF7X5N8;
+				INFOPLIST_FILE = RemoteLabMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.remotelab.client.RemoteLabMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteLabMac.app/Contents/MacOS/RemoteLabMac";
+			};
+			name = Debug;
+		};
+		2E77C4E51E617A2300F11ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TUQDF7X5N8;
+				INFOPLIST_FILE = RemoteLabMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.remotelab.client.RemoteLabMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteLabMac.app/Contents/MacOS/RemoteLabMac";
+			};
+			name = Release;
+		};
+		2E77C4E71E617A2300F11ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TUQDF7X5N8;
+				INFOPLIST_FILE = RemoteLabMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.remotelab.client.RemoteLabMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RemoteLabMac;
+			};
+			name = Debug;
+		};
+		2E77C4E81E617A2300F11ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TUQDF7X5N8;
+				INFOPLIST_FILE = RemoteLabMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.remotelab.client.RemoteLabMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RemoteLabMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E77C4B61E617A2300F11ADD /* Build configuration list for PBXProject "RemoteLabMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E77C4DE1E617A2300F11ADD /* Debug */,
+				2E77C4DF1E617A2300F11ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E77C4E01E617A2300F11ADD /* Build configuration list for PBXNativeTarget "RemoteLabMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E77C4E11E617A2300F11ADD /* Debug */,
+				2E77C4E21E617A2300F11ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E77C4E31E617A2300F11ADD /* Build configuration list for PBXNativeTarget "RemoteLabMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E77C4E41E617A2300F11ADD /* Debug */,
+				2E77C4E51E617A2300F11ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E77C4E61E617A2300F11ADD /* Build configuration list for PBXNativeTarget "RemoteLabMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E77C4E71E617A2300F11ADD /* Debug */,
+				2E77C4E81E617A2300F11ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E77C4B31E617A2300F11ADD /* Project object */;
+}
