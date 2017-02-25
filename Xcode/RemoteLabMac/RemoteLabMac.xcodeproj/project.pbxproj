@@ -405,6 +405,7 @@
 				DEVELOPMENT_TEAM = TUQDF7X5N8;
 				INFOPLIST_FILE = RemoteLabMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = person.remotelab.client.RemoteLabMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -420,6 +421,7 @@
 				DEVELOPMENT_TEAM = TUQDF7X5N8;
 				INFOPLIST_FILE = RemoteLabMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = person.remotelab.client.RemoteLabMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -507,6 +509,7 @@
 				2E77C4E21E617A2300F11ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E77C4E31E617A2300F11ADD /* Build configuration list for PBXNativeTarget "RemoteLabMacTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +518,7 @@
 				2E77C4E51E617A2300F11ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E77C4E61E617A2300F11ADD /* Build configuration list for PBXNativeTarget "RemoteLabMacUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +527,7 @@
 				2E77C4E81E617A2300F11ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
